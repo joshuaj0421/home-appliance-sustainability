@@ -11,7 +11,7 @@ client = gspread.authorize(creds)
 
 # set up the request parameters
 params = {
-'api_key': '944509ADCB7A4F059C56E9571CA0D0D3',
+'api_key': ' ',
   'type': 'search',
   'url': 'https://www.homedepot.com/s/dishwasher?NCNI-5',
   'sort_by': 'best_seller',
@@ -57,7 +57,7 @@ for i in range(0,5):
 #after finding id
 for i in range(0,5):
   params = {
-    'api_key': '944509ADCB7A4F059C56E9571CA0D0D3',
+    'api_key': ' ',
     'type': 'product',
     'item_id': idArray[i]
   }
